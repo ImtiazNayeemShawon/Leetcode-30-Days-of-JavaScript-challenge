@@ -7,7 +7,7 @@ var reduce = function (nums, fn, init) {
     result = fn(result, nums[i]);
   }
 
-  console.log(result);
+  return result;
 };
 
 nums = [1, 2, 3, 4];
